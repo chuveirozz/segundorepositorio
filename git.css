@@ -9,4 +9,5 @@ body{
     /*configuração principal da pagina*/
     background-color: #090d16;
     color: white;
+    min-height: 100vh;
 }
