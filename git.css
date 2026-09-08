@@ -19,4 +19,5 @@ body{
 body::before body::after{
     /*cria os efeitos de luz no fundo*/
     content: '';
+    position: absolute;
 }
