@@ -16,7 +16,7 @@ body{
     overflow: hidden;
     position: relative;
 }
-body::before body::after{
+body::before, body::after{
     /*cria os efeitos de luz no fundo*/
     content: '';
     position: absolute;
@@ -35,6 +35,6 @@ body::before{
 body::after{
     /*posiciona a luz azul*/
     background-color: blue;
-    top: 20%;
-    left: 25%;
+    bottom: 20%;
+    right: 25%;
 }
