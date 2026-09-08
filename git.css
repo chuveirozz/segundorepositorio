@@ -32,3 +32,6 @@ body::before{
     top: 20%;
     left: 25%;
 }
+body::after{
+    /*posiciona a luz azul*/
+}
