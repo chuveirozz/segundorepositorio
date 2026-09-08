@@ -26,3 +26,6 @@ body::before body::after{
     filter: blur(80px);
     z-index: 0;
 }
+body::before{
+    /*posiciona a luz vermelha*/
+}
