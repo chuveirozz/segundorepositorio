@@ -34,4 +34,5 @@ body::before{
 }
 body::after{
     /*posiciona a luz azul*/
+    background-color: blue;
 }
