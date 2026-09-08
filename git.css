@@ -10,4 +10,6 @@ body{
     background-color: #090d16;
     color: white;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
 }
