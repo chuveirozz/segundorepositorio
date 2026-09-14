@@ -56,4 +56,5 @@ body::after{
 }
 .card:hover{
     /*efeito ao passar o mouse no cartao*/
+    transform: translateY(-5px);
 }
