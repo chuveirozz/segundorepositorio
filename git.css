@@ -40,5 +40,6 @@ body::after{
 }
 .card{
     /*estiliza o cartao principal*/
-    
+    position: relative;
+    z-index: 1;
 }
