@@ -28,7 +28,7 @@ body::before, body::after{
 }
 body::before{
     /*posiciona a luz vermelha*/
-    background-color: rgb(55, 0, 255);
+    background-color: rgb(255, 11, 255);
     top: 20%;
     left: 25%;
 }
@@ -62,4 +62,5 @@ body::after{
 
 .badge{
     /*Estiliza a etiqueta*/
+    transform: translateY(-5px);
 }
