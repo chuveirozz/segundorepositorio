@@ -94,6 +94,7 @@ p{
     margin-bottom: 28px;
 }
 .btn{
-/*estiliza o botao*/
-
+    /*estiliza o botao*/
+    display: flex;
+    align-items: center;
 }
