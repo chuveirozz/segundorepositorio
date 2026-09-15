@@ -63,4 +63,5 @@ body::after{
 .badge{
     /*Estiliza a etiqueta*/
     transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.25);
 }
