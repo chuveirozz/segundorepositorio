@@ -100,7 +100,7 @@ p{
     justify-content: center;
     gap: 8px;
     width: 100%;
-    background: red;
+    background: rgb(119, 0, 255);
     color: #ffff;
     padding: 14px;
     border-radius: 12px;
