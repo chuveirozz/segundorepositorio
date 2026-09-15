@@ -63,4 +63,6 @@ body::after{
 .badge{
     /*Estiliza a etiqueta*/
     display: inline-block;
+    background: rgba(220, 38, 38, 0.2);
+    color: red;
 }
