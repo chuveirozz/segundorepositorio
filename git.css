@@ -113,4 +113,5 @@ p{
 
 .btn:hover{
     /*animacao do botao*/
+    background-color: purple;
 }
