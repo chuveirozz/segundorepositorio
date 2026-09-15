@@ -28,7 +28,7 @@ body::before, body::after{
 }
 body::before{
     /*posiciona a luz vermelha*/
-    background-color: rgb(255, 11, 255);
+    background-color: rgb(181, 4, 204);
     top: 20%;
     left: 25%;
 }
@@ -113,7 +113,7 @@ p{
 
 .btn:hover{
     /*animacao do botao*/
-    background-color: rgb(49, 0, 128);
-    box-shadow: 0 0 25px rgba(61, 2, 109, 0.6);
+    background-color: rgb(99, 29, 211);
+    box-shadow: 0 0 25px rgba(140, 0, 255, 0.6);
     transform: scale(1.02);
 }
