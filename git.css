@@ -62,4 +62,5 @@ body::after{
 
 .badge{
     /*Estiliza a etiqueta*/
+    display: inline-block;
 }
