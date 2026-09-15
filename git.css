@@ -113,5 +113,6 @@ p{
 
 .btn:hover{
     /*animacao do botao*/
-    background-color: purple;
+    background-color: rgb(49, 0, 128);
+    box-shadow: 0 0 25px rgba(162, 68, 239, 0.6);
 }
