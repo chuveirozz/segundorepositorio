@@ -82,4 +82,7 @@ h1{
     line-height: 1.2;
     margin-bottom: 12px;
     background: linear-gradient(135deg, #ffff 0%, #9399a8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
 }
