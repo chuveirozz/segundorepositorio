@@ -101,4 +101,6 @@ p{
     gap: 8px;
     width: 100%;
     background: red;
+    color: #ffff;
+    padding: 14px;
 }
