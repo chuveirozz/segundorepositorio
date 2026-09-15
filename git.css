@@ -103,4 +103,6 @@ p{
     background: red;
     color: #ffff;
     padding: 14px;
+    border-radius: 12px;
+    text-decoration: none;
 }
