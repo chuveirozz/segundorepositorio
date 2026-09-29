@@ -123,5 +123,6 @@ p{
     /*define o tamanho e posição da nova sessão*/
     position: relative;
     z-index: 1;
-    
+    width: 100%;
+    max-width: 1000px;
 }
