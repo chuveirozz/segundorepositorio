@@ -130,5 +130,7 @@ p{
 
 .conteudo h2{
     /*estiliza o titulo da nossa sessão*/
-    
+    font-size: 2rem;
+    color: #ffff;
+    margin-bottom: 30px;
 }
