@@ -151,4 +151,6 @@ p{
     border-radius: 18px;
     /*define o espacamento interno*/
     padding: 30px;
+    /*alinha o conteudo a esquerda*/
+    align-items: left;
 }
