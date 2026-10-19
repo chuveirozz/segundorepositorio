@@ -152,5 +152,7 @@ p{
     /*define o espacamento interno*/
     padding: 30px;
     /*alinha o conteudo a esquerda*/
-    align-items: left;
+    text-align: left;
+    /*adiciona uma transicao suave*/
+    transition: 0.3s ease;
 }
