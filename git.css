@@ -138,5 +138,7 @@ p{
 .informacoes{
     /*organiza os cartoes lado a lado*/
     display: grid;
-    grid-template-columns: repeat(2, 1fr);   
+    grid-template-columns: repeat(2, 1fr);  
+    /*Define os espaços entre os cartoes*/
+    gap: 20px;
 }
