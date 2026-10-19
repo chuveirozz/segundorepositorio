@@ -137,5 +137,6 @@ p{
 
 .informacoes{
     /*organiza os cartoes lado a lado*/
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
 }
