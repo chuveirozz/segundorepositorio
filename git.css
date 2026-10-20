@@ -225,5 +225,6 @@ p{
 }
 
 .conteudo h2{
-    ?88?
+    /*altera o tamanho no celola*/
+    font-size: 1.6rem;
 }
