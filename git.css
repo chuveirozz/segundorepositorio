@@ -194,6 +194,7 @@ p{
     font-size: 1.6rem;
 }
 .info-card{
-    
+    /*ajusta o espcamnto interno dos cartoes*/
+    padding: 22px;
 }
 }
