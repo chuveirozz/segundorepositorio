@@ -157,7 +157,7 @@ p{
     transition: 0.3s ease;
 }
 
-.info-card::hover{
+.info-card:hover{
     /*faz o cartao flutuar quando passa o mouse*/
     transform: translateY(-5px);
     
@@ -178,6 +178,43 @@ p{
 }
 
 .info-card p:last-child{
+    /*Remove o espaço abaixo do ultimo paragrafo*/
+    margin-bottom: 0;
+}
+.info-card2{
+    /*Define o fundo e as bordas dos cartoes*/
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    /*arredonda os cantos*/
+    border-radius: 18px;
+    /*define o espacamento interno*/
+    padding: 30px;
+    /*alinha o conteudo a esquerda*/
+    text-align: left;
+    /*adiciona uma transicao suave*/
+    transition: 0.3s ease;
+}
+.info-card2:hover{
+    /*faz o cartao flutuar quando passa o mouse*/
+    transform: translateY(-5px);
+    
+    /*altera a cor da borda pra veremlho*/
+    border-color: purple;
+}
+
+.info-card h3{
+    /*estiliza os titulos Git e GitHub*/
+    color: purple;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.info-card2 p{
+    /*estiliza os espaçamentos entre os paragrafos*/
+    margin-bottom: 12px;
+}
+
+.info-card2 p:last-child{
     /*Remove o espaço abaixo do ultimo paragrafo*/
     margin-bottom: 0;
 }
