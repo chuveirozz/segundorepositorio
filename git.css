@@ -160,5 +160,6 @@ p{
 .info-card::hover{
     /*faz o cartao flutuar quando passa o mouse*/
     transform: translateY(-5px);
+
     
 }
