@@ -156,3 +156,9 @@ p{
     /*adiciona uma transicao suave*/
     transition: 0.3s ease;
 }
+
+.info-card::hover{
+    /*faz o cartao flutuar quando passa o mouse*/
+    transform: translateY(-5px);
+    
+}
