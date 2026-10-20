@@ -204,7 +204,7 @@ p{
 
 .info-card h3{
     /*estiliza os titulos Git e GitHub*/
-    color: purple;
+    color: rgb(19, 0, 128);
     font-size: 1.4rem;
     margin-bottom: 15px;
 }
@@ -217,4 +217,8 @@ p{
 .info-card2 p:last-child{
     /*Remove o espaço abaixo do ultimo paragrafo*/
     margin-bottom: 0;
+}
+
+.informacoes{
+    
 }
