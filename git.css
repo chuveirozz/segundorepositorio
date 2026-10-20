@@ -220,5 +220,6 @@ p{
 }
 
 .informacoes{
-    
+    /*organiza os cartoes um embaixo do outro*/
+    grid-template-columns: 1fr;
 }
