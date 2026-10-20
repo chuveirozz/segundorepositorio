@@ -160,6 +160,7 @@ p{
 .info-card::hover{
     /*faz o cartao flutuar quando passa o mouse*/
     transform: translateY(-5px);
-
     
+    /*altera a cor da borda pra veremlho*/
+    border-color: purple;
 }
