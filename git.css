@@ -13,8 +13,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     position: relative;
+    flex-direction: column;
+    gap: 60px;
+    padding: 80px 20px;
 }
 body::before, body::after{
     /*cria os efeitos de luz no fundo*/
@@ -29,30 +33,31 @@ body::before, body::after{
 body::before{
     /*posiciona a luz vermelha*/
     background-color: rgb(181, 4, 204);
-    top: 20%;
+    top: 25%;
     left: 25%;
 }
 body::after{
     /*posiciona a luz azul*/
     background-color: blue;
-    bottom: 20%;
+    bottom: 25%;
     right: 25%;
 }
 .card{
     /*estiliza o cartao principal*/
     position: relative;
     z-index: 1;
-    background: rgba(34, 27, 27, 0.4);
+    background: rgba(12, 12, 12, 0.4);
     backdrop-filter: blur(100px);
     -webkit-background-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.12);
-    padding: 20px 32px;
+    padding: 40px 32px;
     border-radius: 24px;
     max-width: 420px;
     width: 90%;
     text-align: center;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, border-color 0.3 ease;
+    flex-shrink: 0;
 }
 .card:hover{
     /*efeito ao passar o mouse no cartao*/
@@ -81,7 +86,7 @@ h1{
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 12px;
-    background: linear-gradient(135deg, #ffff 0%, #9399a8);
+    background: linear-gradient(135deg, #ffff 0%, #9399a8 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -162,12 +167,12 @@ p{
     transform: translateY(-5px);
     
     /*altera a cor da borda pra veremlho*/
-    border-color: purple;
+    border-color: rgb(45, 9, 248);
 }
 
 .info-card h3{
     /*estiliza os titulos Git e GitHub*/
-    color: purple;
+    color: rgb(68, 0, 255);
     font-size: 1.4rem;
     margin-bottom: 15px;
 }
@@ -184,10 +189,7 @@ p{
 
 
 @media(max-width:768px){
-.informacoes{
-    /*organiza os cartoes um embaixo do outro*/
-    grid-template-columns: 1fr;
-}
+
 
 .conteudo h2{
     /*altera o tamanho no celola*/
