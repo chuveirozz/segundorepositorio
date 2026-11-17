@@ -62,7 +62,8 @@ body::after{
 .card:hover{
     /*efeito ao passar o mouse no cartao*/
     transform: translateY(-5px);
-    border-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(131, 110, 255, 0.877);
+    transition: all 0.3s ease;
 }
 
 .badge{
