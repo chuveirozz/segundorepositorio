@@ -224,5 +224,6 @@ Coloca os novos elementos acima das luzes decorativas do fundo. */
 }
 
 .menu-estudo a {
-
+    padding: 12px 16px;
+    border: 1px solid #475569;
 }
