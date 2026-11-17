@@ -219,5 +219,6 @@ Coloca os novos elementos acima das luzes decorativas do fundo. */
 }
 
 .menu-estudo a, .links-estudo a, .rodape-estudo a{
-    
+    color: magenta;
+    text-underline-offset: 4px;
 }
