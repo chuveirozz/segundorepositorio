@@ -212,5 +212,6 @@ Coloca os novos elementos acima das luzes decorativas do fundo. */
 
 /*Flex e wrap fazem os links mudarem de linha quando faltar espaço.*/
 .menu-estudo{
-    
+    display: flex;
+    flex-wrap: wrap;
 }
