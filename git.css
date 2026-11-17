@@ -217,3 +217,7 @@ Coloca os novos elementos acima das luzes decorativas do fundo. */
     justify-content: center;
     gap: 12px;
 }
+
+.menu-estudo a, .links-estudo a, .rodape-estudo a{
+    
+}
